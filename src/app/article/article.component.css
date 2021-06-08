@@ -1,9 +1,20 @@
 .container{
     margin-top: 20px;
+}
+
+.article{
     border-style: solid;
     border-color: gray;
     border-width: 1px;
     border-radius: 5px;
-    padding: 10px;
     background-color:ghostwhite;
+    /* margin: 1px; */
+}
+
+.points{
+    text-align: center;
+}
+
+.description{
+    text-align: left;
 }

@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        
+        <div class="col-md-2 article points">
+            <h1>{{article.votes}}</h1>
+            <h3>Points</h3>
+        </div>
+
+        <div class="col-md-10 article description">            
+            <div class="row">
+                <h1>{{article.title}}</h1>
+                <h6><a href="{{article.link}}">({{domain()}})</a></h6>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1">
+                    <a href="#">upvote</a>
+                </div>
+
+                <div class="col-md-1">
+                    <a href="#">downvote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
